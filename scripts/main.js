@@ -140,7 +140,7 @@ function ejercicio12(){
 
     for(i=0; i<6; i++){
 
-        total=total+'<br/>'+" En el año "+ i + " recibira " +sueldo+ " de Salario";
+        total=total+'<br/>'+"* En el año "+ i + " recibira " +sueldo+ " de Salario";
         sueldo=Math.trunc(sueldo*1.1) ;
         //console.log(total)
         document.getElementById("ejercicio12").innerHTML = total;
@@ -148,16 +148,26 @@ function ejercicio12(){
 }
 
 function ejercicio13(){
-    let cantidad, nota,total;  
+    let nota,total; 
+    let a
+    let aprobados, desaprobados 
     let i;
-    cantidad = document.getElementById("cantidad").value; 
-    nota = document.getElementById("nota").value; 
 
-   total='';
+    let cantidad=[a];
+    for (let i = 0; i < a; i++) {
+        cantAlumnos[i] = prompt("Nota numero ".concat(i + 1));
+      }
 
-    while(i<=cantidad){
 
-        total=total+'<br/>' +"Obtendra  : "+(parseFloat(cantidad)) + " dolares"; 
+
+   // cantidad = document.getElementById("cantidad").value; 
+  //  nota = document.getElementById("nota").value; 
+
+  // total='';
+
+   // while(i<=cantidad){
+
+  //      total=total+'<br/>' +"Obtendra  : "+(parseFloat(cantidad)) + " dolares"; 
        /* if(parseInt(nota)>10 && parseInt(nota)<20 ){
             total=total+'<br/>'+" En el año "+ i + " recibira " +sueldo+ " de Salario";
             console.log(total)
@@ -165,7 +175,7 @@ function ejercicio13(){
             
         }*/
 
-    }    
+   // }    
 }
 
 function ejercicio14(){
@@ -176,7 +186,7 @@ function ejercicio14(){
 
    total='';
 
-    while(i<=cantidad){
+   // while(i<=cantidad){
 
         total=total+'<br/>' +"Obtendra  : "+(parseFloat(cantidad)) + " dolares"; 
        /* if(parseInt(nota)>10 && parseInt(nota)<20 ){
@@ -186,7 +196,7 @@ function ejercicio14(){
             
         }*/
 
-    }    
+   // }    
 }
 
 function ejercicio15(){
