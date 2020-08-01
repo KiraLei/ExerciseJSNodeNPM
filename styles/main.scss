@@ -10,6 +10,7 @@
 body{
     margin-top: 5rem;
     margin: auto;  
+   
 
 }
 
@@ -17,9 +18,7 @@ body{
     padding: 68px 0px 20px 0px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-
-     
+    justify-content: space-between;     
 }
 
 section{
@@ -28,7 +27,7 @@ section{
     border: 1px solid darken(#2281a7, 10);
     
 
-    background-color: rgba(61, 112, 119, 0.281);
+    background-color: rgba(239, 250, 252, 0.281);
     max-width: 430px;
     padding: 2rem 4rem;
     margin: 1rem auto 3rem auto;
@@ -80,7 +79,7 @@ h1{
 }
 
 input{
-    background-color: rgba(227, 235, 228, 0.274);
+    background-color: rgba(165, 173, 166, 0.274);
     border: none;
     border-radius: 1rem;
     width: 80%;

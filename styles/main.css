@@ -27,7 +27,7 @@ section {
       -ms-flex: 0 1 calc(25% - 1rem);
           flex: 0 1 calc(25% - 1rem);
   border: 1px solid #19607d;
-  background-color: rgba(61, 112, 119, 0.281);
+  background-color: rgba(239, 250, 252, 0.281);
   max-width: 430px;
   padding: 2rem 4rem;
   margin: 1rem auto 3rem auto;
@@ -95,7 +95,7 @@ h1 {
 }
 
 input {
-  background-color: rgba(227, 235, 228, 0.274);
+  background-color: rgba(165, 173, 166, 0.274);
   border: none;
   border-radius: 1rem;
   width: 80%;
