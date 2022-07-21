@@ -20,7 +20,7 @@
   "homepage": "https://github.com/KiraLei/ExerciseJSNodeNPM#readme",
   "dependencies": {
     "parcel": "^1.12.4",
-    "terser": "^4.8.0",
+    "terser": "^4.8.1",
     "uglify-js": "^3.10.0"
   }
 }
